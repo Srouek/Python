@@ -27,10 +27,76 @@ Permet de connaitre la version de docker utilisé
 
 ![Docker_version](https://github.com/Srouek/Python/blob/main/Python%20Scripts/Docker/asset/Docker_version.PNG)
 
-##Petit Résumé des commande docker
+## Petit Résumé des commande docker
+
+```sh
+docker ps 
+```
+Liste tous les containers
 
 ```sh
 docker create 
 ```
-Créer un nouveau conteneur
+Crée un nouveau container
+
+```sh
+docker run 
+```
+Crée puis lance un nouveau container run est l'équivalent de create and start
+
+```sh
+docker exec
+```
+Exécute une commande dans un le container en cours d'éxécution 
+
+```sh
+docker start
+```
+Lance un ou plusieurs containers arrêtés
+
+```sh
+docker rm
+``` 
+Supprime un ou plusieurs containers
+
+```sh
+docker restart
+```
+Redémarre un container en cours d’exécution
+
+```sh
+docker port
+```
+Liste les port d'un container
+
+```sh
+docker port
+```
+Liste les ports d'un container
+
+```sh
+docker build 
+```
+Construis une nouvelle image à partir du code source 
+```sh
+docker pull
+```
+Récupére une image ou un repository à partir du Docker HUB
+```sh
+docker push
+```
+Publie une image ou un repository vers le Docker HUB
+
+```sh
+docker images
+```
+Liste les images (Les info relative aux containers seront aussi affiché)
+
+```sh
+docker rmi
+```
+Supprime une ou plusieurs images
+
+### La Notion de port dans un container
+Le port est le point d'entré d'un container, il permet de pouvoir accèder au contenus du container
 
