@@ -1,6 +1,6 @@
 # Docker TP
 
-[![Docker](.\asset\Moby-logo.png)](https://www.docker.com/)
+[![Docker](\asset\Moby-logo.png)](https://www.docker.com/)
 
 **Quickstart Docker** 
 
@@ -11,7 +11,7 @@ docker run hello-world
 Cette commande permet de lancer mon premier container avec son image 
 On peut vérifier ce résultat au travers du desktop Docker
 
-[![Containers](..\asset\Containers.PNG )]
+[![Containers](.\asset\Containers.PNG )]
 [![Containers](.\asset\Containers2.PNG)]
 
 L'image
