@@ -15,7 +15,8 @@ On peut vérifier ce résultat au travers du desktop Docker
 ![Containers](https://github.com/Srouek/Python/blob/main/Python%20Scripts/Docker/asset/Containers2.PNG)
 
 L'image
-![Image](.\asset\images_docker.PNG)
+
+![Image](https://github.com/Srouek/Python/blob/main/Python%20Scripts/Docker/asset/images_docker.PNG)
 
 On peut aussi le voir au travers de sa console Terminal sur Mac ou Powershell sur Windows
 ![Docker Run](https://github.com/Srouek/Python/blob/main/Python%20Scripts/Docker/asset/Docker_run_Powershell.PNG)
