@@ -98,6 +98,23 @@ docker rmi
 ```
 Supprime une ou plusieurs images
 
-### La Notion de port dans un container
-Le port est le point d'entré d'un container, il permet de pouvoir accèder au contenus du container
+### Les containers
+Ce sont des environnement Linux que l'on isole les uns des autres, mais qui s'appuis sur l'OS (le système d'exploitation) de la machine où il se trouve.
+> *Sur des environnement Linux oui, mais depuis 2016  il possible d'exéuter des containers Windows grâce à **Hyper-V Containers** mais aussi des container Linux grâce à la virtualisation proposée par **Hyper-V** sur Windows. C'est d'ailleurs surement pour ça que les développeurs ne mentionnent plus la restrictions qu'avait les containers Docker*
+#### L'utilité
+> Si vous  êtes fan de Marvel, vous connaissez surement Iron man.
+> Tony Stark pourrait être comparé à l'Os de notre machine et les armures de Tony Stark (oui il en a plusieurs) serait les containers.
+> Selon l'utilité Tony appel différentes armure parfois il en appel plusieurs afin de pouvoir combattre sur tous les fronts.
+
+La conteneurisation c'est le même principe, on pourrait se dire que chaque armure est une application avec une base de donnée et des librairies auquel on aimerait faire appel à tout moment.
+Mais en réalité ça peut aller plus loin que ça on pourrait conteurisé  des librairies, des applications, des base de donnée et faire appel à chaque conteneurs au sein d'un gros conteneur qui réccuperera le tout. Tout comme Tony Stark pourrais assembler différente pièces des ses armures comme bon lui semble pour en fabriquer une voir même plusieurs.
+
+Mais cela n'est pas le seul avantage. La conteurisation permet au Administrateur système de n'avoir à récupérer que le conteur que l'on décide de déployer sur un serveur et avoir toutes nos dépendances. En effet Un projet fait en python 3.2 avec une db Mango nécéssitera l'installation de ses logiciels et de leurs environnements et cela sur chaque serveur que l'on souhaitera utiliser. 
+
+Encore un avantage Les conteuneur peuvent exiter sur un serveur et être éxécuter par un autre serveur et cela grâce au fonctionnement de docker qui fonctionne en client serveur avec comme client le `Docker client` et comme serveur `Docker Deamon` qui lui fait fonctionner le `Docker Engine`
+
+#### Le fonctionnement
+Le **conteneur**
+Les **images** 
+Le **port** est le point d'entré d'un container, il permet de pouvoir accèder au contenus du container
 
